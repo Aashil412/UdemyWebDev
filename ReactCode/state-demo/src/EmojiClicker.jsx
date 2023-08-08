@@ -14,6 +14,7 @@ export default function EmojiClicker() {
   const deleteEmoji = (id) => {
     setEmojis((prevEmojis) => prevEmojis.filter((e) => e.id !== id));
   };
+  
   return (
     <div>
       {emojis.map((e) => (
