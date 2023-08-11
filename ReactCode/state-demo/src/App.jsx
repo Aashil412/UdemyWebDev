@@ -20,6 +20,8 @@ function App() {
   
   return (
     <>
+      <input type="text" name="" id="" />
+      <button>Submit</button>
       <BoxGrid/>
       {/* <LuckyN winCheck={lessthan4} title="Roll less than 4"/>
       <LuckyN winCheck={allSameValue} title ="Roll the same number"/> */}
